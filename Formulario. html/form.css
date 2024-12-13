@@ -1,0 +1,118 @@
+/* General */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0; /* Fondo claro */
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+form {
+  padding: 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  color: #333;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #fff; /* Fondo blanco */
+  width: 100%;
+  max-width: 400px; /* Ancho máximo del formulario */
+  margin-bottom: 20px;
+}
+
+/* Botón de regresar */
+.back-button {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.back-button .button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.back-button .button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos de entrada y botones */
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button {
+  background-color: #3498db; /* Azul inicial */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Suaviza el cambio de color */
+}
+
+button:hover {
+  background-color: #2ecc71; /* Cambia a verde al pasar el cursor */
+}
+/* Enlaces */
+.terms {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.terms a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.terms a:hover {
+  text-decoration: underline;
+}
